@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mini Snake Sample</title>
+    <style>
+        .w {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            margin: 0 0 10px 0;
+        }
+        p {
+            margin: 0 0 10px 0;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="w">
+      <h1>Snake mini game</h1>
+      <p>Press arrow keys for play</p>
+      <canvas id="game" width="400" height="400"></canvas>
+      <div class="w__about">
+            <p>Простая игра по <a href="https://www.youtube.com/watch?v=xGmXxpIj6vs">мотивам Chris DeLeon</a></p>
+            <p>Особенности</p>
+            <ol>
+                <li>Нет подсчета очков</li>
+                <li>Нет проигрыша</li>
+                <li>Мир замкнут</li>
+            </ol>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
